@@ -1,0 +1,13 @@
+body {
+    background-color: powderblue;
+  }
+  h1 {
+    border: 2px solid rgb(94, 35, 206);
+    padding: 30px;
+    margin: 150px;
+    color: blue;
+    font-family:"cursive";
+  }
+  p {
+    color: red;
+  }

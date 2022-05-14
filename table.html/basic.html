@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <title>table basic</title>
+        <link rel="icon" type="image/x-icon" href="/css.html/12.jpg">
+        <style>
+            p{
+                background-color: aqua;
+                background-attachment: scroll;
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                font-style: italic;
+            }
+        tr:hover{
+            background-color: aqua;
+        }
+        
+        /* body{
+            background-image: url(12.jpg);
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-size: 100% 100%;
+        } */
+        table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: max-content;
+}
+/* th {
+  background-color: #96D4D4;
+ 
+} */
+th:nth-child(even) ,td:nth-child(even) {
+    background-color:rgb(219, 36, 36);
+padding-left: 10px;
+padding-top: 20px;
+padding-right: 30px;
+padding-bottom: 40px;
+}
+        /* tr:nth-child(even) {
+            background-color: rgb(174, 243, 211);
+        } */
+
+    </style>
+    </head>
+    <body>
+        <table>
+            
+            <tr>
+               <th rowspan="4">Person 1</th>>
+               <th>Person 1</th>>
+               <th>Person 2</th>>
+               <th>Person 3</th>>
+                
+            </tr>
+            <tr>
+                <td >pratik</td>
+                <td>balaji</td>
+                <td>ban</td>
+            </tr>
+            <tr>
+                <!-- <th  style="height: 80%;">Person 1</th> -->
+                <td>pratik</td>
+                <td>balaji</td>
+                <td>ban</td>
+            </tr>
+            <tr>
+               
+                <td>pratik</td>
+                <td>balaji</td>
+                <td>ban</td>
+            </tr>
+        </table>
+
+    </body>
+
+</html>
