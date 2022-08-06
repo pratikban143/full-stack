@@ -1,0 +1,11 @@
+.UploadBtn{
+    border: 1px solid green;
+    background-color: rgb(228, 245, 245);
+    padding: 2px 20px;
+    
+}
+
+#conatiner{
+    display: flex;
+    justify-content: center;
+}
